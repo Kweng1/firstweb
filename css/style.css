@@ -129,3 +129,51 @@ button:hover {
     background-color: #0056b3; 
 }
 
+ .reach-us-section {
+            text-align: center;
+            background-color: aliceblue;
+            margin-bottom: 20px;
+            padding: 5px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .reach-us-section h2 {
+            font-size: 30px; 
+            font-weight: bolder;
+            color: #333;
+        }
+        
+        .contact-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .image-container {
+            flex: 1;
+            padding: 5px;
+        }
+        
+        .contact-form {
+            flex: 2;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+        
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
