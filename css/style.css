@@ -3,10 +3,34 @@
 }
 
 
-  .barrel{
+  .innercontainer{
     max-width: 1200px;
     margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid;
+
+    
   }
+
+  @media screen and(max-width: 1200px) {
+    .innercontainer{
+        max-width: 1200px;
+        width: 100px;
+    }
+    
+  }
+
+  @media screen and (max-width: 400px) {
+    
+    
+  }
+
+  @media screen and (max-width: 700px){
+    .information p , .Scrshot p, .pic, .pict, .imag{
+        width: 100px;
+    }
+  }
+    
   
   .navigate {
       background-color: #fc4311;
@@ -287,6 +311,7 @@
   }
 
   .blog h4 {
+    
     padding: 50px;
     font-size: 35px;
     text-align: center;
@@ -425,7 +450,7 @@ button[type="submit"]:hover {
     text-align: center;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5{
-    flex-grow: 3;
+    flex-grow: 4;
 }
 .footer div{
     text-align: center;
@@ -473,4 +498,5 @@ button[type="sub"]:hover {
     background-color: #555;
     
 }
+
 
